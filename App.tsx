@@ -30,7 +30,7 @@ import Menu from './src/assets/menu.svg';
 
 const Section: React.FC<{
   title: string;
-}> = ({children, title}) => {
+}> = ({ children, title }) => {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
